@@ -83,7 +83,13 @@ export default function Accueil() {
   const getSectionByPosition = (pos) => sections.find((sectionItem) => sectionItem.position === pos);
 
   if (isLoading) {
-    return <div className="text-center py-8">Chargement en cours...</div>;
+    return  <div className="
+                absolute inset-0 h-full
+                bg-[url(./assets/Accueil/hero-bg.jpg)]
+                bg-no-repeat bg-cover bg-fixed
+                flex flex-col items-end justify-center
+              ">
+            </div>;
   }
 
   return (

@@ -48,7 +48,7 @@ export default function Header() {
   const title = titles[location.pathname] || "Canopées";
 
   if (isLoading) {
-    return <div className="text-center py-8">Chargement en cours...</div>;
+    return <div className="text-center py-8 text-[var(--blue)]">Chargement en cours...</div>;
   }
   return (
     <header className="relative w-full h-125 text-[var(--light-white)]">
