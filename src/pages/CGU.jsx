@@ -7,6 +7,7 @@ export default function CGU() {
         src={CGUFile}
         title="Conditions Générales d’Utilisation"
         className="w-full h-[80vh] border rounded"
+        loading="lazy"
       />
     </div>
   );

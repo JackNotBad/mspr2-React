@@ -7,6 +7,7 @@ export default function CGV() {
         src={CGVFile}
         title="Conditions Générales de vente"
         className="w-full h-[80vh] border rounded"
+        loading="lazy"
       />
     </div>
   );

@@ -22,7 +22,7 @@ export default function Navbar({ toggleMenu }) {
             </li>
       </ul>
       <button onClick={toggleMenu} className="ml-auto lg:hidden">
-        <img src={hamburger} alt="Ouvrir le menu" className="cursor-pointer" />
+        <img src={hamburger} alt="Ouvrir le menu" className="cursor-pointer" loading="lazy" />
       </button>
     </nav>
   );

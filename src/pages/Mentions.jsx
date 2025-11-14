@@ -7,6 +7,7 @@ export default function legalMentions() {
         src={legalMentionsFile}
         title="Mentions Légales"
         className="w-full h-[80vh] border rounded"
+        loading="lazy"
       />
     </div>
   );

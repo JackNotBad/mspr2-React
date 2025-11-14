@@ -101,6 +101,7 @@ export default function Accueil() {
           imgAlt={getSectionByPosition(1).imgAlt}
           text={getSectionByPosition(1).text}
           imgFirst={true}
+          loading="lazy"
         >
           <h2>{getSectionByPosition(1).title}</h2>
         </Section>

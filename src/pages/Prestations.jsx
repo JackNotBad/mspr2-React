@@ -81,6 +81,7 @@ export default function Prestations() {
             textClass=""
             details={s.details}
             onOpenDetails={() => openModal(s.details)}
+            loading="lazy"
           />
         </section>
       ))}

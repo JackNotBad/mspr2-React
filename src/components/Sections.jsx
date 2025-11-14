@@ -69,6 +69,7 @@ export default function Section({
               src={`${uploadsPublicPath}${String(imgSrc).replace(/^\//, "")}`}
               alt={imgAlt}
               className={`${baseImgClass} ${imgClass}`}
+              loading="lazy"
             />
           )}
           {TextBlock}
@@ -81,6 +82,7 @@ export default function Section({
               src={`${uploadsPublicPath}${String(imgSrc).replace(/^\//, "")}`}
               alt={imgAlt}
               className={`${baseImgClass} ${imgClass}`}
+              loading="lazy"
             />
           )}
         </>
